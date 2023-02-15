@@ -1,6 +1,6 @@
 # clamp calc
 
-[View live website](https://example.com)
+[View live website](https://clamp-calc.netlify.app/)
 
 <br>
 
