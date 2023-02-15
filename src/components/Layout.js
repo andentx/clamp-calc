@@ -42,13 +42,10 @@ const Layout = ({ children }) => {
         <meta name='msapplication-TileColor' content='hsl(210, 63%, 16%)' />
         <meta name='msapplication-config' content='icons/browserconfig.xml' />
 
-        <meta
-          property='og:title'
-          content='Clamp Calc | A tool for generating clamp CSS functions'
-        />
+        <meta property='og:title' content='Clamp Calc' />
         <meta
           property='og:description'
-          content='Clamp Calc is a tool for generating clamp CSS functions.'
+          content='Clamp Calc | A tool for generating clamp CSS functions'
         />
         <meta property='og:image' content='i.imgur.com/cBBy7DM.png' />
         <meta
