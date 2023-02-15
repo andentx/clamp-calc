@@ -42,6 +42,25 @@ const Layout = ({ children }) => {
         <meta name='msapplication-TileColor' content='hsl(210, 63%, 16%)' />
         <meta name='msapplication-config' content='icons/browserconfig.xml' />
 
+        <meta
+          property='og:title'
+          content='Clamp Calc | A tool for generating clamp CSS functions'
+        />
+        <meta
+          property='og:description'
+          content='Clamp Calc is a tool for generating clamp CSS functions.'
+        />
+        <meta property='og:image' content='https://i.imgur.com/PvK7j7G.png' />
+        <meta
+          property='og:image:alt'
+          content='A screenshot of the Clamp Calc website'
+        />
+        <meta property='og:locale' content='en_US' />
+        <meta property='og:type' content='website' />
+        <meta property='og:url' content='https://clamp-calc.vercel.app/' />
+
+        <meta name='twitter:card' content='summary' />
+
         <meta name='theme-color' content='hsl(210, 63%, 16%)' />
       </Head>
 
