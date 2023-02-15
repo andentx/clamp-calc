@@ -1,0 +1,65 @@
+.InputSectionContainer {
+  background-color: var(--eggshell);
+
+  border: 3px solid black;
+  border-radius: 10px;
+
+  padding-top: min(4%, 2rem);
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  width: min(90%, 700px);
+
+  min-height: 5rem;
+
+  margin-bottom: 5%;
+}
+
+.Input {
+  background-color: white;
+
+  border: 2px solid black;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  width: 90%;
+  max-width: 300px;
+
+  /* 2rem @ 200vw - 3rem @ 700vw */
+  height: clamp(2rem, 1.2rem + 6.4vw, 4rem);
+
+  margin-left: 2%;
+  margin-right: 2%;
+
+  margin-bottom: 4%;
+
+  * {
+    /* 0.8rem @ 200vw - 1.5rem @ 700vw */
+    font-size: clamp(0.8rem, 0.52rem + 2.24vw, 1.5rem);
+  }
+
+  input {
+    background-color: var(--eggshell-transparent);
+
+    border: 1px solid black;
+    outline: none;
+
+    width: 6ch;
+
+    text-align: right;
+
+    margin-left: 0.5rem;
+  }
+
+  p {
+    width: 3ch;
+
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}
