@@ -47,7 +47,7 @@ const Layout = ({ children }) => {
           property='og:description'
           content='Clamp Calc | A tool for generating clamp CSS functions'
         />
-        <meta property='og:image' content='i.imgur.com/cBBy7DM.png' />
+        <meta property='og:image' content='https://i.imgur.com/cBBy7DM.png' />
         <meta
           property='og:image:alt'
           content='A screenshot of the Clamp Calc website'
